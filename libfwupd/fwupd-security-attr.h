@@ -128,6 +128,7 @@ typedef enum {
 #define FWUPD_SECURITY_ATTR_ID_SPI_SMM_BWP		"org.fwupd.hsi.SpiSmmBwp"		/* Since: 1.5.0 */
 #define FWUPD_SECURITY_ATTR_ID_SUSPEND_TO_IDLE		"org.fwupd.hsi.SuspendToIdle"		/* Since: 1.5.0 */
 #define FWUPD_SECURITY_ATTR_ID_SUSPEND_TO_RAM		"org.fwupd.hsi.SuspendToRam"		/* Since: 1.5.0 */
+#define FWUPD_SECURITY_ATTR_ID_TOTAL_MEMORY_ENCRYPTION	"org.fwupd.hsi.TotalMemoryEncryption"	/* Since: 1.5.0 */
 #define FWUPD_SECURITY_ATTR_ID_TPM_RECONSTRUCTION_PCR0	"org.fwupd.hsi.TpmReconstructionPcr0"	/* Since: 1.5.0 */
 #define FWUPD_SECURITY_ATTR_ID_TPM_VERSION_20		"org.fwupd.hsi.TpmVersion20"		/* Since: 1.5.0 */
 #define FWUPD_SECURITY_ATTR_ID_UEFI_DBX			"org.fwupd.hsi.UefiDbx"			/* Since: 1.5.0 */

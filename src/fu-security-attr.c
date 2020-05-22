@@ -81,6 +81,10 @@ fu_security_attr_get_name (FwupdSecurityAttr *attr)
 		/* TRANSLATORS: Title: TPM = Trusted Platform Module */
 		return _("TPM v2.0");
 	}
+	if (g_strcmp0 (appstream_id, FWUPD_SECURITY_ATTR_ID_TOTAL_MEMORY_ENCRYPTION) == 0) {
+		/* TRANSLATORS: Title: this is sometimes called TME */
+		return _("Memory Encryption");
+	}
 	if (g_strcmp0 (appstream_id, FWUPD_SECURITY_ATTR_ID_MEI_MANUFACTURING_MODE) == 0) {
 		/* TRANSLATORS: Title: MEI = Intel Management Engine */
 		return _("MEI manufacturing mode");
