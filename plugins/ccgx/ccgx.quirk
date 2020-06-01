@@ -41,3 +41,27 @@ Name = ThinkPad USB-C Dock Hybrid PD Controller
 Summary = CCGx Power Delivery Device
 ImageKind = dual-symmetric
 ParentGuid = USB\VID_17EF&PID_1028
+
+# HP Adicora Dock A Type 
+[DeviceInstanceId=USB\VID_03F0&PID_046B]
+Plugin = ccgx
+GType = FuCcgxDmcDevice
+
+[DeviceInstanceId=USB\VID_03F0&PID_046B&DMC]
+Name = HP USB-C Dock G5
+Summary = Dock Management Controller Device
+ImageKind = dmc-composite
+ParentGuid = USB\VID_03F0&PID_0363
+InstallDuration = 180
+
+# HP Adicora Dock D Type 
+[DeviceInstanceId=USB\VID_03F0&PID_0A6B]
+Plugin = ccgx
+GType = FuCcgxDmcDevice
+
+[DeviceInstanceId=USB\VID_03F0&PID_0A6B&DMC]
+Name = HP USB-C/A Universal Dock G2
+Summary = Dock Management Controller Device
+ImageKind = dmc-composite
+ParentGuid = USB\VID_03F0&PID_096B
+InstallDuration = 180
